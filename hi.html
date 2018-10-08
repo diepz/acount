@@ -1,0 +1,11 @@
+<script type="text/javascript">
+	function ValidateAccount(str) {
+	regex = /^[_a-z0-9]{6,}$/;
+	if (regex.test(str)) {
+			console.log("ok");
+		} else {
+			console.log("CC ok");
+		}
+	}
+	ValidateAccount("123abc_");
+</script>
